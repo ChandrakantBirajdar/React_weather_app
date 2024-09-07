@@ -1,0 +1,96 @@
+.wrapper{
+    width: 300px;
+    height: 490px;
+    background-color: #6710f4;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+.searchbar{
+
+    display: flex;
+    gap: 8px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    padding-top: 20px;
+    
+}
+.searchbar input{
+    border: none;
+    outline: none;
+    background-color: white;
+    width: 180px;
+    height: 40px;
+    border-radius: 30px;
+    padding-left: 20px;
+}
+
+.searchbar img{
+    width: 20px;
+    height: 20px;
+    background-color: white;
+    object-fit: cover;
+    border-radius: 100%;
+    padding: 11px;
+    cursor: pointer;
+}
+
+.container img{
+    width: 120px;
+    height: 120px;
+}
+
+.firstContainer{
+    display: flex;
+    flex-direction: row;
+    gap: 5px;
+}
+
+
+.subcontainer{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    /* gap: 4px; */
+    color: white;
+}
+.subcontainer h1{
+    
+    font-size: 50px;
+
+}
+.subcontainer img{
+    font-size: 30px;
+}
+.thirdcontainer{
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    font-size: 10px;
+    gap: 30px;
+    margin-left: 16px;
+    
+}
+.secoendContainer{
+    display: flex;
+    gap: 2px;
+    color: white;
+    margin-top: 0px         ;
+}
+.secoendContainer img{
+    width: 30px;
+    height: 30px;
+}
+.lastContainer{
+    width: 140px;
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    color: white;
+    gap: 40px;
+    margin-top: -20px;
+    margin-left: -80px;
+}
